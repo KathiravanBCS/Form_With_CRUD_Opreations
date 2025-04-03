@@ -1,12 +1,35 @@
-# React + Vite
+# Student Form with CRUD Operations
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application for managing student records with Create, Read, Update, and Delete (CRUD) functionality. Student data is saved in JSON format to a text file.
 
-Currently, two official plugins are available:
+![Student Form Screenshot](screenshot.png) <!-- Add a screenshot if available -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Add Student Records**: Complete form with validation
+- **Edit/Update Records**: Modify existing student information
+- **Delete Records**: Remove students from the system
+- **Data Export**: Save all student records to a JSON text file
+- **Responsive Design**: Works on both desktop and mobile devices
+- **Form Validation**: Ensures data integrity with client-side validation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Data Structure
+
+Student data is saved in the following JSON format:
+
+```json
+[
+  {
+    "studentId": "abc123",
+    "firstName": "John",
+    "lastName": "Doe",
+    "studentEmail": "john@example.com",
+    "studentPhone": "9876543210",
+    "gender": "male",
+    "address": {
+      "fullAddress": "123/A, Main Street, Downtown Area",
+      "town": "Chennai",
+      "pincode": "600001"
+    }
+  }
+]
