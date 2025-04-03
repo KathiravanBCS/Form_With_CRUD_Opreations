@@ -2,7 +2,6 @@
 
 A React application for managing student records with Create, Read, Update, and Delete (CRUD) functionality. Student data is saved in JSON format to a text file.
 
-![Student Form Screenshot](screenshot.png) <!-- Add a screenshot if available -->
 
 ## Features
 
