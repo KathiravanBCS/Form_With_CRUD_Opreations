@@ -20,13 +20,13 @@ Student data is saved in the following JSON format:
 [
   {
     "studentId": "abc123",
-    "firstName": "John",
-    "lastName": "Doe",
-    "studentEmail": "john@example.com",
-    "studentPhone": "9876543210",
+    "firstName": "Kathiravan",
+    "lastName": "Vittobha",
+    "studentEmail": "kathiravan@example.com",
+    "studentPhone": "1234567890",
     "gender": "male",
     "address": {
-      "fullAddress": "123/A, Main Street, Downtown Area",
+      "fullAddress": "123/A, Street,  Area",
       "town": "Chennai",
       "pincode": "600001"
     }
